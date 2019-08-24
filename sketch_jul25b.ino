@@ -61,7 +61,7 @@ claw.write(90);
    for(position = 0; position < 180; position += 2)
   {
     base.write(position);  // Move to next position
-    delay(20);               // Short pause to allow it to move
+    delay(200);               // Short pause to allow it to move
   }
 
   // Tell servo to go to 0 degrees, stepping by one degree
@@ -69,7 +69,7 @@ claw.write(90);
   for(position = 180; position >= 0; position -= 1)
   {                                
     base.write(position);  // Move to next position
-    delay(20);               // Short pause to allow it to move
+    delay(200);               // Short pause to allow it to move
   }
 
 
@@ -79,7 +79,7 @@ claw.write(90);
  for(position = 0; position < 180; position += 2)
   {
     bottom.write(position);  // Move to next position
-    delay(20);               // Short pause to allow it to move
+    delay(200);               // Short pause to allow it to move
   }
 
   // Tell servo to go to 0 degrees, stepping by one degree
@@ -87,7 +87,7 @@ claw.write(90);
   for(position = 180; position >= 0; position -= 1)
   {                                
     bottom.write(position);  // Move to next position
-    delay(20);               // Short pause to allow it to move
+    delay(200);               // Short pause to allow it to move
   }
 
 
@@ -98,7 +98,7 @@ claw.write(90);
  for(position = 0; position < 180; position += 2)
   {
     top.write(position);  // Move to next position
-    delay(20);               // Short pause to allow it to move
+    delay(200);               // Short pause to allow it to move
   }
 
   // Tell servo to go to 0 degrees, stepping by one degree
@@ -106,7 +106,7 @@ claw.write(90);
   for(position = 180; position >= 0; position -= 1)
   {                                
     top.write(position);  // Move to next position
-    delay(20);               // Short pause to allow it to move
+    delay(200);               // Short pause to allow it to move
   }
 
 
@@ -120,7 +120,7 @@ claw.write(90);
  for(position = 0; position < 180; position += 2)
   {
     claw.write(position);  // Move to next position
-    delay(20);               // Short pause to allow it to move
+    delay(200);               // Short pause to allow it to move
   }
 
   // Tell servo to go to 0 degrees, stepping by one degree
@@ -128,7 +128,7 @@ claw.write(90);
   for(position = 180; position >= 0; position -= 1)
   {                                
     claw.write(position);  // Move to next position
-    delay(20);               // Short pause to allow it to move
+    delay(200);               // Short pause to allow it to move
   }
 }
 
